@@ -1,0 +1,26 @@
+/* https://cssgradient.io/ */
+:root{
+    --escuro : rgb(31, 31, 31) ;
+    --claro : rgb(212, 212, 212) ;
+    --primario : rgb(3, 102, 177) ;
+}
+
+header{
+    border-bottom: 1px solid var(--primario)!important;
+}
+
+.temaClaro{
+    background-color: var(--claro)!important;
+    color: var(--escuro)!important;
+    transition: 1s;
+}
+
+.temaEscuro{
+    background-color: var(--escuro)!important;
+    color: var(--claro)!important;
+    transition: 1s;
+}
+
+.temaEscuro a{
+    color: var(--claro)!important;
+}
